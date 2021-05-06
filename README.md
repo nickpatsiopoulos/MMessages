@@ -1,6 +1,4 @@
 # MMessages
-
-# Mixed Messages
 > Generate a random workout song mix with a combination of warmup, main workout and cooldown tracks
 
 ## Table of contents
