@@ -35,4 +35,4 @@ This script is a potential starting point for a more fully-featured application.
 
 The yaml file could be extended to enrich the song list object to include additional metadata such as song length, etc. This could let the user specify a workout time length and create a playlist that matches the duration.
 
-It should also be possible to generate a playlist and use external APIs to create a list that actually plays on Spotify, Youtube Music or another service.
+It should also be possible to generate a playlist and use external APIs to send a list to Spotify, Youtube Music or another service that can actually play the tracks.
