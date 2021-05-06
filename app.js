@@ -2,12 +2,12 @@
 const yaml = require('js-yaml')
 const fs = require('fs')
 
-//Read the content stored in the yaml file into the "data" variable
+//Read the content stored in the yaml file into the "data" object
 const data = yaml.load(fs.readFileSync('./songs.yaml', 'utf-8'));
 
 let workoutPlaylist = [];
 
-//Helper function - gets [num] number of UNIQUE items from the supplied array
+//Helper function - gets [num] number of UNIQUE (i.e. no duplicates) items from the supplied array
 selectRand = (arr, num) => {
   let returnCount = 0;
   let newArr = [];
