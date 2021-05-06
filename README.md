@@ -11,7 +11,7 @@
 ## General info
 Script created as part of the Full Stack Developer course at Codecademy.
 
-Rather than store the songs in the javascript file itself, I decided to add them to a separate yaml file which the javascript file reads from. This serves to separate the content layer from the code.
+Rather than store the songs in the javascript file itself, I decided to add them to a separate yaml file from which the javascript file reads. This serves to separate the content layer from the code.
 
 ## Technologies
 * Node v14.16.1
